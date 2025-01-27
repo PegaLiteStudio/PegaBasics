@@ -10,6 +10,15 @@ import android.util.Log;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
+/**
+ * AppSignatureHelper is a utility class to retrieve and log the app's signature in
+ * Base64-encoded SHA-256 format. It handles compatibility for both older and newer versions of Android.
+ * <p>
+ * Created by: Sahil Hossain (PegaLiteStudio)
+
+ * Date: 2025-01-27
+ * Version: 1.1.0
+ */
 public class AppSignatureHelper {
 
     private static final String TAG = "AppSignatureHelper";
